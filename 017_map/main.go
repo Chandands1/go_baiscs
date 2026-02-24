@@ -26,4 +26,14 @@ func main(){
 
 	fmt.Println(scores["math"])
 
+	users := map[string]string{
+		"u1": "chandan",
+		"u2": "rahul",
+		"u3": "harshith",
+	}
+	fmt.Println(users)
+
+	delete(users, "u2")
+	fmt.Println(users)
+
 }
